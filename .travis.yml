@@ -8,9 +8,9 @@ install:
 deploy:
   provider: elasticbeanstalk
   access_key_id:
-    secure: AWS-ACCESS-KEY-ID
+    secure: AWS_ACCESS_KEY_ID
   secret_access_key:
-    secure: AWS-SECRET-ACCESS-KEY
+    secure: AWS_SECRET_ACCESS_KEY
   region: "eu-west-2"
   app: "slackify"
   env: "slackify-env"
