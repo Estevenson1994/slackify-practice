@@ -12,9 +12,9 @@ deploy:
   skip_cleanup: true
   provider: elasticbeanstalk
   access_key_id:
-    secure: AWS_ACCESS_KEY_ID
+    secure: $AWS_ACCESS_KEY_ID
   secret_access_key:
-    secure: AWS_SECRET_ACCESS_KEY
+    secure: $AWS_SECRET_ACCESS_KEY
   region: "eu-west-2"
   app: "slackify"
   env: "slackify-env"
