@@ -3,7 +3,7 @@ const path = require('path')
 const app = express()
 const port = 8081
 const XMLHttprequest = require('xmlhttprequest').XMLHttpRequest;
-const os = require('os')
+// const os = require('os')
 var request = new XMLHttprequest();
 
 app.engine('html', require('ejs').renderFile);
